@@ -1,0 +1,101 @@
+{
+    "value0": "Rock",
+    "value1": "",
+    "value2": 0,
+    "value3": {
+        "value0": 0.0,
+        "value1": 1.7160743474960328,
+        "value2": -7.277117729187012
+    },
+    "value4": {
+        "value0": 1.0,
+        "value1": 0.0,
+        "value2": 0.0,
+        "value3": 0.0
+    },
+    "value5": {
+        "value0": 0.009999999776482582,
+        "value1": 0.009999999776482582,
+        "value2": 0.009999999776482582
+    },
+    "value6": true,
+    "value7": true,
+    "value8": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "MeshRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": "Rock9.fbx",
+                    "value1": true,
+                    "value2": "Project/meshes/rocks/Rock9.fbx",
+                    "value3": "Rock8_Diffuse.png",
+                    "value4": true,
+                    "value5": "Project/textures/rocks/Rock8_Diffuse.png",
+                    "value6": "Default",
+                    "value7": false,
+                    "value8": "resources/BlinnPhongShader.shader",
+                    "value9": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0,
+                        "value3": 1.0
+                    },
+                    "value10": {
+                        "value0": true,
+                        "value1": "MeshRenderer"
+                    }
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "RigidStatic",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": true,
+                        "value1": "RigidStatic"
+                    }
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "BoxCollision",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": 700.0,
+                        "value1": 400.0,
+                        "value2": 700.0
+                    },
+                    "value1": false,
+                    "value2": {
+                        "value0": 2.5,
+                        "value1": 1.0,
+                        "value2": 0.0
+                    },
+                    "value3": {
+                        "value0": 1.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 0.0
+                    },
+                    "value4": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "value5": {
+                        "value0": true,
+                        "value1": "BoxCollision"
+                    }
+                }
+            }
+        }
+    ]
+}

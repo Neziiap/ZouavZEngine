@@ -1,0 +1,30 @@
+{
+	"Project" : 
+	{
+		"Name" : "ZouavzZ_Engine",
+		"Version" :
+		[
+			"00",
+			"00",
+			"00"
+		],
+		"Dependencies" : 
+		[
+			"assimp-vc142-mtd.dll",
+			"OpenAL32.dll",
+			"libsndfile-1.dll"
+		],
+		"ResourcesDir" :
+		[
+			"ZouavZEngine\\resources"
+		],
+		"MarkDown" : 
+		[
+			{
+				"File" : "c:\\users\\ekraemer\\downloads\\CodingNorme.md",
+				"HTMLName" : "CodingNorme.html",
+				"Encoding" : "utf8"
+			}
+		]
+	}
+}

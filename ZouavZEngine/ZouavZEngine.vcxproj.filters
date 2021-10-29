@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{0da9d34b-0a77-4425-aa04-9c4c773f7b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{1e4c3c08-87eb-4809-a81d-2a3a5738d473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Maths">
+      <UniqueIdentifier>{c1c8c06d-131a-4697-845a-6f25a82f3cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Maths">
+      <UniqueIdentifier>{221339f5-6264-41b0-9674-24df5aaf3d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external_lib">
+      <UniqueIdentifier>{88a615f3-ac52-4b58-aac2-0c077781d67e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Rendering">
+      <UniqueIdentifier>{0ac60715-0882-4684-9b9b-1dc705bbdfde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Rendering">
+      <UniqueIdentifier>{ecbbf4c0-457d-4156-90e5-b2d8f0fe743b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{2eaf80a9-e727-4643-b74f-38796243c567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\System">
+      <UniqueIdentifier>{7f2d1e11-579a-4b80-a26f-a3231aaaf7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\System">
+      <UniqueIdentifier>{67c51e73-e01e-44de-802e-fcbd0ce42879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Component">
+      <UniqueIdentifier>{7e66d3e7-179b-497a-a696-07df53e2070a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Component">
+      <UniqueIdentifier>{f332dd7c-ddc6-40ac-b480-219977366fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Game">
+      <UniqueIdentifier>{28029a3a-93bd-4b6c-a650-3401fc0b04fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game">
+      <UniqueIdentifier>{71c51119-bac8-465c-99d0-7f0c2336721c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Multithread">
+      <UniqueIdentifier>{1d150c90-c381-4385-a441-44c1fb562db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Multithread">
+      <UniqueIdentifier>{5949b4c1-014e-476a-9afd-d64f06941db8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="external_lib\src\glad.c">
+      <Filter>external_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\Shader.cpp">
+      <Filter>src\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\Texture.cpp">
+      <Filter>src\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="external_lib\src\imgui.cpp">
+      <Filter>external_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="external_lib\src\imgui_demo.cpp">
+      <Filter>external_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="external_lib\src\imgui_draw.cpp">
+      <Filter>external_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="external_lib\src\imgui_impl_glfw.cpp">
+      <Filter>external_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="external_lib\src\imgui_impl_opengl3.cpp">
+      <Filter>external_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="external_lib\src\imgui_tables.cpp">
+      <Filter>external_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="external_lib\src\imgui_widgets.cpp">
+      <Filter>external_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="external_lib\src\tiny_obj_loader.cpp">
+      <Filter>external_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Maths\Vec3.cpp">
+      <Filter>src\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Maths\Vec2.cpp">
+      <Filter>src\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\Mesh.cpp">
+      <Filter>src\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\Render.cpp">
+      <Filter>src\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Maths\Vec4.cpp">
+      <Filter>src\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Maths\Matrix.cpp">
+      <Filter>src\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\Camera.cpp">
+      <Filter>src\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Transform.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Maths\Quaternion.cpp">
+      <Filter>src\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Maths\Mat4.cpp">
+      <Filter>src\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Component.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\ResourcesManager.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Editor.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\Framebuffer.cpp">
+      <Filter>src\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\TimeManager.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\InputManager.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\ScriptComponent.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\ScriptSystem.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Player.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Light.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\MeshRenderer.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Terrain.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\SoundManager.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sound.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\AudioBroadcaster.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\AudioListener.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Debug.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\ShapeCollision.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\BoxCollision.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\PhysicSystem.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\SphereCollision.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\CapsuleCollision.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\RigidBody.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Plane.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Multithread\TaskSystem.cpp">
+      <Filter>src\Multithread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Multithread\ThreadPool.cpp">
+      <Filter>src\Multithread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Multithread\Task.cpp">
+      <Filter>src\Multithread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resource.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\Material.cpp">
+      <Filter>src\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\Font.cpp">
+      <Filter>src\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\FontComponent.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\FontSystem.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Prefab.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Rigid.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="external_lib\src\ImCurveEdit.cpp">
+      <Filter>external_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="external_lib\src\ImGradient.cpp">
+      <Filter>external_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="external_lib\src\ImGuizmo.cpp">
+      <Filter>external_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="external_lib\src\ImSequencer.cpp">
+      <Filter>external_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Skybox.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\RigidStatic.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\Bone.cpp">
+      <Filter>src\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\Animation.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\AnimResource.cpp">
+      <Filter>src\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\CubemapTexture.cpp">
+      <Filter>src\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\RegisterComponents.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="external_lib\src\imgui_stdlib.cpp">
+      <Filter>external_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\ICharacter.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Enemy.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\ProgressBar.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\EnemyArcher.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Arrow.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\PhysxShowcaseScript.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\SlimeEnemy.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\EnemyManager.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Zombie.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <!--Compile End-->
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Rendering\Shader.hpp">
+      <Filter>include\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rendering\Texture.hpp">
+      <Filter>include\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resource.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\System\Engine.hpp">
+      <Filter>include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="external_lib\src\imgui_internal.h">
+      <Filter>external_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Maths\Vec3.hpp">
+      <Filter>include\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Maths\Vec2.hpp">
+      <Filter>include\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rendering\Mesh.hpp">
+      <Filter>include\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rendering\Render.hpp">
+      <Filter>include\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Maths\Vec4.hpp">
+      <Filter>include\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Maths\Matrix.hpp">
+      <Filter>include\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rendering\Camera.hpp">
+      <Filter>include\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Transform.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Maths\Quaternion.hpp">
+      <Filter>include\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Maths\Mat4.hpp">
+      <Filter>include\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Component.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scene.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\System\ResourcesManager.hpp">
+      <Filter>include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\System\Editor.hpp">
+      <Filter>include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rendering\Framebuffer.hpp">
+      <Filter>include\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\System\InputManager.hpp">
+      <Filter>include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\System\TimeManager.hpp">
+      <Filter>include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\ScriptComponent.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\System\ScriptSystem.hpp">
+      <Filter>include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Player.hpp">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Light.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\MeshRenderer.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\System\Terrain.hpp">
+      <Filter>include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\System\SoundManager.hpp">
+      <Filter>include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sound.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\AudioBroadcaster.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\AudioListener.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\System\Debug.hpp">
+      <Filter>include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\System\PhysicSystem.hpp">
+      <Filter>include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\ShapeCollision.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\BoxCollision.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\System\PhysicUtils.hpp">
+      <Filter>include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\SphereCollision.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\CapsuleCollision.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\RigidBody.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\RigidStatic.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Plane.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Multithread\TaskSystem.h">
+      <Filter>include\Multithread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Multithread\ThreadPool.h">
+      <Filter>include\Multithread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Multithread\Task.h">
+      <Filter>include\Multithread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rendering\Material.hpp">
+      <Filter>include\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rendering\Font.hpp">
+      <Filter>include\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\FontComponent.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\System\FontSystem.hpp">
+      <Filter>include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Prefab.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Rigid.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="external_lib\include\ImCurveEdit.h">
+      <Filter>external_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="external_lib\include\ImGradient.h">
+      <Filter>external_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="external_lib\include\ImGuizmo.h">
+      <Filter>external_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="external_lib\include\ImSequencer.h">
+      <Filter>external_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="external_lib\include\ImZoomSlider.h">
+      <Filter>external_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Skybox.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rendering\Bone.hpp">
+      <Filter>include\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Animation.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rendering\Animator.hpp">
+      <Filter>include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rendering\AnimResource.hpp">
+      <Filter>include\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rendering\CubemapTexture.hpp">
+      <Filter>include\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\RegisterComponent.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="external_lib\include\imgui_stdlib.h">
+      <Filter>external_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\ICharacter.hpp">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualLeakDetector\include\vld.h">
+      <Filter>external_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualLeakDetector\include\vld_def.h">
+      <Filter>external_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Enemy.hpp">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Object.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\ProgressBar.hpp">
+      <Filter>include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\EnemyArcher.hpp">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Arrow.hpp">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\PhysxShowcaseScript.hpp">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\SlimeEnemy.hpp">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\EnemyManager.hpp">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Zombie.hpp">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Project.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <!--Include End-->
+  </ItemGroup>
+</Project>

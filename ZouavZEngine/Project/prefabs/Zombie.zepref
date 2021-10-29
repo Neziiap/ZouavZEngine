@@ -1,0 +1,267 @@
+{
+    "value0": "Zombie",
+    "value1": "",
+    "value2": 0,
+    "value3": {
+        "value0": -3.5488367080688478,
+        "value1": 0.0,
+        "value2": -29.887386322021486
+    },
+    "value4": {
+        "value0": 1.0,
+        "value1": 0.0,
+        "value2": 0.0,
+        "value3": 0.0
+    },
+    "value5": {
+        "value0": 0.02500000037252903,
+        "value1": 0.02500000037252903,
+        "value2": 0.02500000037252903
+    },
+    "value6": true,
+    "value7": true,
+    "value8": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Zombie",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": 25.0,
+                        "value1": 5.0,
+                        "value2": 3.5,
+                        "value3": 2.0,
+                        "value4": 10.0,
+                        "value5": {
+                            "value0": {
+                                "value0": 1.0,
+                                "value1": 0.0,
+                                "value2": 0.0,
+                                "value3": 1.0
+                            },
+                            "value1": 0.5,
+                            "value2": 5,
+                            "value3": 5,
+                            "value4": 1,
+                            "value5": 1,
+                            "value6": 0.5,
+                            "value7": 2.0,
+                            "value8": 0.6000000238418579,
+                            "value9": {
+                                "value0": true,
+                                "value1": "Zombie"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "BoxCollision",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": 53.0,
+                        "value1": 200.0,
+                        "value2": 40.0
+                    },
+                    "value1": false,
+                    "value2": {
+                        "value0": 0.0,
+                        "value1": 2.4000000953674318,
+                        "value2": 0.0
+                    },
+                    "value3": {
+                        "value0": 1.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 0.0
+                    },
+                    "value4": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "value5": {
+                        "value0": true,
+                        "value1": "BoxCollision"
+                    }
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "RigidBody",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": true,
+                    "value1": true,
+                    "value2": true,
+                    "value3": {
+                        "value0": true,
+                        "value1": "RigidBody"
+                    }
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483652,
+            "polymorphic_name": "MeshRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": "Zombie Mesh.fbx",
+                    "value1": true,
+                    "value2": "Project/meshes/Zombie Mesh.fbx",
+                    "value3": "Yakuzombie_diffuse.png",
+                    "value4": true,
+                    "value5": "Project/textures/Yakuzombie_diffuse.png",
+                    "value6": "Default",
+                    "value7": false,
+                    "value8": "resources/BlinnPhongShader.shader",
+                    "value9": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0,
+                        "value3": 1.0
+                    },
+                    "value10": {
+                        "value0": true,
+                        "value1": "MeshRenderer"
+                    }
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": 53.0,
+                        "value1": 200.0,
+                        "value2": 80.0
+                    },
+                    "value1": true,
+                    "value2": {
+                        "value0": 0.0,
+                        "value1": 2.4000000953674318,
+                        "value2": 1.75
+                    },
+                    "value3": {
+                        "value0": 1.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 0.0
+                    },
+                    "value4": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "value5": {
+                        "value0": false,
+                        "value1": "Attack Collision"
+                    }
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483653,
+            "polymorphic_name": "FontComponent",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": "Default",
+                    "value1": false,
+                    "value2": "resources/Arial.fnt",
+                    "value3": 2,
+                    "value4": "Default Text",
+                    "value5": 1.0,
+                    "value6": 0.0,
+                    "value7": 0.0,
+                    "value8": 1.0,
+                    "value9": 0.0,
+                    "value10": 6.199999809265137,
+                    "value11": 0.0,
+                    "value12": 15.0,
+                    "value13": 0.5,
+                    "value14": 0.009999999776482582,
+                    "value15": 0.0,
+                    "value16": 0.0010000000474974514,
+                    "value17": 0.0,
+                    "value18": 0.0,
+                    "value19": 0.0,
+                    "value20": 0.0,
+                    "value21": 0.0,
+                    "value22": false,
+                    "value23": {
+                        "value0": true,
+                        "value1": "FontComponent"
+                    }
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483654,
+            "polymorphic_name": "AudioBroadcaster",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": false,
+                    "value1": false,
+                    "value2": 3,
+                    "value3": "attack.wav",
+                    "value4": "Project/sounds/attack.wav",
+                    "value5": "damage.wav",
+                    "value6": "Project/sounds/damage.wav",
+                    "value7": "death.wav",
+                    "value8": "Project/sounds/death.wav",
+                    "value9": {
+                        "value0": true,
+                        "value1": "AudioBroadcaster"
+                    }
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483655,
+            "polymorphic_name": "Animation",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": 4,
+                    "value1": "Zombie Idle.fbx",
+                    "value2": "Project/animations/Zombie/Zombie Idle.fbx",
+                    "value3": 0.4000000059604645,
+                    "value4": true,
+                    "value5": true,
+                    "value6": "Zombie Punching.fbx",
+                    "value7": "Project/animations/Zombie/Zombie Punching.fbx",
+                    "value8": 0.6000000238418579,
+                    "value9": false,
+                    "value10": true,
+                    "value11": "Zombie Walk.fbx",
+                    "value12": "Project/animations/Zombie/Zombie Walk.fbx",
+                    "value13": 1.0,
+                    "value14": true,
+                    "value15": true,
+                    "value16": "Zombie_Death.fbx",
+                    "value17": "Project/animations/Zombie/Zombie_Death.fbx",
+                    "value18": 0.4000000059604645,
+                    "value19": false,
+                    "value20": false,
+                    "value21": "Zombie Idle.fbx",
+                    "value22": {
+                        "value0": true,
+                        "value1": "Animation"
+                    }
+                }
+            }
+        }
+    ]
+}

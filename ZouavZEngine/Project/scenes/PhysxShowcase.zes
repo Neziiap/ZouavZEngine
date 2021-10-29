@@ -1,0 +1,210 @@
+{
+    "value0": "PhysxShowcase",
+    "value1": "",
+    "value2": 3,
+    "value3": {
+        "value0": 0.0,
+        "value1": 0.0,
+        "value2": 0.0
+    },
+    "value4": {
+        "value0": 1.0,
+        "value1": 0.0,
+        "value2": 0.0,
+        "value3": 0.0
+    },
+    "value5": {
+        "value0": 1.0,
+        "value1": 1.0,
+        "value2": 1.0
+    },
+    "value6": true,
+    "value7": false,
+    "value8": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Light",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": 0.5,
+                    "value1": 0.5,
+                    "value2": 0.5,
+                    "value3": 0.5,
+                    "value4": 0.5,
+                    "value5": 0.5,
+                    "value6": 0.5,
+                    "value7": 0.5,
+                    "value8": 0.5,
+                    "value9": 1.0,
+                    "value10": 0.009999999776482582,
+                    "value11": 0.0010000000474974514,
+                    "value12": 0.0,
+                    "value13": -1.0,
+                    "value14": 0.0,
+                    "value15": 0.8999999761581421,
+                    "value16": 0.800000011920929,
+                    "value17": 0,
+                    "value18": {
+                        "value0": true,
+                        "value1": "Light"
+                    }
+                }
+            }
+        }
+    ],
+    "value9": "New GameObject",
+    "value10": "Player",
+    "value11": 0,
+    "value12": {
+        "value0": 111.91887664794922,
+        "value1": 61.96874237060547,
+        "value2": -21.12814712524414
+    },
+    "value13": {
+        "value0": 1.0,
+        "value1": 0.0,
+        "value2": 0.0,
+        "value3": 0.0
+    },
+    "value14": {
+        "value0": 1.0,
+        "value1": 1.0,
+        "value2": 1.0
+    },
+    "value15": true,
+    "value16": false,
+    "value17": [
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "PhysxShowcaseScript",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "Project/prefabs\\CubeTest.zepref"
+                    },
+                    "value1": {
+                        "value0": {
+                            "value0": true,
+                            "value1": "PhysxShowcaseScript"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "value18": "New GameObject",
+    "value19": "",
+    "value20": 0,
+    "value21": {
+        "value0": 59.010650634765628,
+        "value1": 93.81863403320313,
+        "value2": -77.05848693847656
+    },
+    "value22": {
+        "value0": 1.0,
+        "value1": 0.0,
+        "value2": 0.0,
+        "value3": 0.0
+    },
+    "value23": {
+        "value0": 1.0,
+        "value1": 1.0,
+        "value2": 1.0
+    },
+    "value24": true,
+    "value25": false,
+    "value26": [
+        {
+            "polymorphic_id": 2,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "Project/prefabs\\CubeTest.zepref"
+                    },
+                    "value1": {
+                        "value0": {
+                            "value0": true,
+                            "value1": "PhysxShowcaseScript"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "value27": "New GameObject",
+    "value28": "",
+    "value29": 0,
+    "value30": {
+        "value0": 58.16740417480469,
+        "value1": 103.15946197509766,
+        "value2": 55.14849853515625
+    },
+    "value31": {
+        "value0": 1.0,
+        "value1": 0.0,
+        "value2": 0.0,
+        "value3": 0.0
+    },
+    "value32": {
+        "value0": 1.0,
+        "value1": 1.0,
+        "value2": 1.0
+    },
+    "value33": true,
+    "value34": false,
+    "value35": [
+        {
+            "polymorphic_id": 2,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "Project/prefabs\\CubeTest.zepref"
+                    },
+                    "value1": {
+                        "value0": {
+                            "value0": true,
+                            "value1": "PhysxShowcaseScript"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "value36": true,
+    "value37": 128.0,
+    "value38": 128,
+    "value39": 16,
+    "value40": 0,
+    "value41": 1,
+    "value42": 0,
+    "value43": -100.0,
+    "value44": 100.0,
+    "value45": 200.0,
+    "value46": 1,
+    "value47": 0,
+    "value48": true,
+    "value49": 1,
+    "value50": 0,
+    "value51": 0,
+    "value52": 1,
+    "value53": 0.009999999776482582,
+    "value54": 2.0,
+    "value55": 0.5,
+    "value56": 0.0,
+    "value57": 2.0,
+    "value58": 0.0,
+    "value59": 0.0,
+    "value60": 0.0,
+    "value61": 0.0,
+    "value62": 0.0,
+    "value63": 0.0,
+    "value64": 33.435001373291019,
+    "value65": "Grass.png",
+    "value66": 1,
+    "value67": "noPath",
+    "value68": 1
+}

@@ -1,0 +1,53 @@
+{
+    "value0": "Spawner",
+    "value1": "",
+    "value2": 0,
+    "value3": {
+        "value0": 0.0,
+        "value1": 0.0,
+        "value2": 0.0
+    },
+    "value4": {
+        "value0": 1.0,
+        "value1": 0.0,
+        "value2": 0.0,
+        "value3": 0.0
+    },
+    "value5": {
+        "value0": 10.0,
+        "value1": 10.0,
+        "value2": 10.0
+    },
+    "value6": true,
+    "value7": true,
+    "value8": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "MeshRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": "sphere.obj",
+                    "value1": true,
+                    "value2": "Project/meshes/sphere.obj",
+                    "value3": "Default",
+                    "value4": false,
+                    "value5": "resources/white.png",
+                    "value6": "Default",
+                    "value7": false,
+                    "value8": "resources/BlinnPhongShader.shader",
+                    "value9": {
+                        "value0": 0.6470255851745606,
+                        "value1": 0.0,
+                        "value2": 1.0,
+                        "value3": 1.0
+                    },
+                    "value10": {
+                        "value0": true,
+                        "value1": "MeshRenderer"
+                    }
+                }
+            }
+        }
+    ]
+}

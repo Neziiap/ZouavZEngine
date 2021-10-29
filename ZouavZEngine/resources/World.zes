@@ -1,0 +1,229 @@
+{
+    "value0": "World",
+    "value1": "",
+    "value2": 3,
+    "value3": [],
+    "value4": 0.0,
+    "value5": 0.0,
+    "value6": 0.0,
+    "value7": 0.0,
+    "value8": 0.0,
+    "value9": 0.0,
+    "value10": 1.0,
+    "value11": 1.0,
+    "value12": 1.0,
+    "value13": 1.0,
+    "value14": "Light",
+    "value15": "",
+    "value16": 0,
+    "value17": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Light",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": 0.5,
+                    "value1": 0.5,
+                    "value2": 0.5,
+                    "value3": 0.5,
+                    "value4": 0.5,
+                    "value5": 0.5,
+                    "value6": 0.5,
+                    "value7": 0.5,
+                    "value8": 0.5,
+                    "value9": 1.0,
+                    "value10": 0.009999999776482582,
+                    "value11": 0.0010000000474974514,
+                    "value12": 0.0,
+                    "value13": -1.0,
+                    "value14": 0.0,
+                    "value15": 0.8999999761581421,
+                    "value16": 0.800000011920929,
+                    "value17": 0
+                }
+            }
+        }
+    ],
+    "value18": 0.0,
+    "value19": 0.0,
+    "value20": 0.0,
+    "value21": 0.0,
+    "value22": 0.0,
+    "value23": 0.0,
+    "value24": 1.0,
+    "value25": 1.0,
+    "value26": 1.0,
+    "value27": 1.0,
+    "value28": "SoundSkull",
+    "value29": "",
+    "value30": 0,
+    "value31": [
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "MeshRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": "Skull Mesh",
+                    "value1": "Skull Tex",
+                    "value2": "Default"
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "AudioBroadcaster",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": false,
+                    "value1": false,
+                    "value2": "TestSon"
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483652,
+            "polymorphic_name": "Move",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {}
+            }
+        }
+    ],
+    "value32": 0.0,
+    "value33": 0.0,
+    "value34": 0.0,
+    "value35": 0.0,
+    "value36": 0.0,
+    "value37": 0.0,
+    "value38": 1.0,
+    "value39": 1.0,
+    "value40": 1.0,
+    "value41": 1.0,
+    "value42": "Player",
+    "value43": "Player",
+    "value44": 0,
+    "value45": [
+        {
+            "polymorphic_id": 2,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": "Skull Mesh",
+                    "value1": "Skull Tex",
+                    "value2": "Default"
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483653,
+            "polymorphic_name": "AudioListener",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {}
+            }
+        },
+        {
+            "polymorphic_id": 2147483654,
+            "polymorphic_name": "Player",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": 3,
+                    "value1": 10,
+                    "value2": 1.0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483655,
+            "polymorphic_name": "Camera",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": 1.1230854988098145,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 0.0,
+                    "value4": 0.0,
+                    "value5": 2.4142136573791506,
+                    "value6": 0.0,
+                    "value7": 0.0,
+                    "value8": 0.0,
+                    "value9": 0.0,
+                    "value10": -1.0000039339065552,
+                    "value11": -1.0,
+                    "value12": 0.0,
+                    "value13": 0.0,
+                    "value14": -0.020000038668513299,
+                    "value15": 0.0,
+                    "value16": 0.0,
+                    "value17": 5.0,
+                    "value18": -8.0,
+                    "value19": 0.0,
+                    "value20": 0.0,
+                    "value21": 5.0,
+                    "value22": true
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483656,
+            "polymorphic_name": "SphereCollision",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": 0.5
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483657,
+            "polymorphic_name": "RigidBody",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {}
+            }
+        }
+    ],
+    "value46": 0.0,
+    "value47": 0.0,
+    "value48": 0.0,
+    "value49": 0.0,
+    "value50": 0.0,
+    "value51": 0.0,
+    "value52": 1.0,
+    "value53": 1.0,
+    "value54": 1.0,
+    "value55": 1.0,
+    "value56": 512.0,
+    "value57": 128,
+    "value58": 16,
+    "value59": 0,
+    "value60": 1,
+    "value61": 0,
+    "value62": -10.0,
+    "value63": 30.0,
+    "value64": 30.0,
+    "value65": 1,
+    "value66": 0,
+    "value67": true,
+    "value68": 0,
+    "value69": 0,
+    "value70": 1,
+    "value71": 0.009999999776482582,
+    "value72": 2.0,
+    "value73": 0.5,
+    "value74": 0.0,
+    "value75": 2.0,
+    "value76": 0.0,
+    "value77": 0.0,
+    "value78": 0.0,
+    "value79": 0.0,
+    "value80": 0.0,
+    "value81": 0.0,
+    "value82": 1.0,
+    "value83": "nullptr"
+}

@@ -1,0 +1,101 @@
+{
+    "value0": "Tree",
+    "value1": "",
+    "value2": 0,
+    "value3": {
+        "value0": -7.690174579620361,
+        "value1": 0.0,
+        "value2": 0.0
+    },
+    "value4": {
+        "value0": 1.0,
+        "value1": 0.0,
+        "value2": 0.0,
+        "value3": 0.0
+    },
+    "value5": {
+        "value0": 2.5,
+        "value1": 2.5,
+        "value2": 2.5
+    },
+    "value6": true,
+    "value7": true,
+    "value8": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "MeshRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": "Tree.obj",
+                    "value1": true,
+                    "value2": "Project/meshes/Tree.obj",
+                    "value3": "TreeBaseColor.png",
+                    "value4": true,
+                    "value5": "Project/textures/TreeBaseColor.png",
+                    "value6": "Default",
+                    "value7": false,
+                    "value8": "resources/BlinnPhongShader.shader",
+                    "value9": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0,
+                        "value3": 1.0
+                    },
+                    "value10": {
+                        "value0": true,
+                        "value1": "MeshRenderer"
+                    }
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "RigidStatic",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": true,
+                        "value1": "RigidStatic"
+                    }
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "BoxCollision",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": 5.400000095367432,
+                        "value1": 7.0,
+                        "value2": 5.400000095367432
+                    },
+                    "value1": false,
+                    "value2": {
+                        "value0": 0.0,
+                        "value1": 3.25,
+                        "value2": 0.0
+                    },
+                    "value3": {
+                        "value0": 1.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 0.0
+                    },
+                    "value4": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "value5": {
+                        "value0": true,
+                        "value1": "BoxCollision"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "value0": "Rock2",
+    "value1": "",
+    "value2": 0,
+    "value3": {
+        "value0": -21.793399810791017,
+        "value1": 1.7160743474960328,
+        "value2": -7.277117729187012
+    },
+    "value4": {
+        "value0": 0.9033951759338379,
+        "value1": 3.649934967597801e-7,
+        "value2": 0.4288089871406555,
+        "value3": 8.960610102803912e-7
+    },
+    "value5": {
+        "value0": 0.00999999139457941,
+        "value1": 0.009999999776482582,
+        "value2": 0.00999999139457941
+    },
+    "value6": true,
+    "value7": true,
+    "value8": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "MeshRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": "Rock2.fbx",
+                    "value1": true,
+                    "value2": "Project/meshes/rocks/Rock2.fbx",
+                    "value3": "Rock7_Diffuse.png",
+                    "value4": true,
+                    "value5": "Project/textures/rocks/Rock7_Diffuse.png",
+                    "value6": "Default",
+                    "value7": false,
+                    "value8": "resources/BlinnPhongShader.shader",
+                    "value9": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0,
+                        "value3": 1.0
+                    },
+                    "value10": {
+                        "value0": true,
+                        "value1": "MeshRenderer"
+                    }
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "RigidStatic",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": true,
+                        "value1": "RigidStatic"
+                    }
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "BoxCollision",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": 700.0,
+                        "value1": 400.0,
+                        "value2": 700.0
+                    },
+                    "value1": false,
+                    "value2": {
+                        "value0": 2.5,
+                        "value1": 1.0,
+                        "value2": 0.0
+                    },
+                    "value3": {
+                        "value0": 1.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 0.0
+                    },
+                    "value4": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "value5": {
+                        "value0": true,
+                        "value1": "BoxCollision"
+                    }
+                }
+            }
+        }
+    ]
+}

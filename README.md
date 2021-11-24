@@ -1,55 +1,51 @@
 # ZouavZ EnginE
 
------
+3D Game Engine, allow to create rpg with procedural generation
+![#Isart](Media/ISART-Digital.png)
 
-> Développeur :
-> Gavelle Anthony
-> Grondin Jérémy
-> Deprez Nicolas
+___
 
-<!--<div style="text-align:center">
-    
-</div>-->
+| Name | Role|
+|:---:|:---:|
+| GAVELLE Antony | Game Programmer
+| DEPREZ Nicolas | Game Programmer
+| GRONDIN Jérémy | Game Programmer
 
-## Description :
-Projet moteur : moteur de jeu 3d et création d'un rpg
 
 ## Features :
-Différentes fenêtre d'éditeur dockable:
--> Hierarchy, Inspector, Console, Project, Generation Procédurale, fenêtre de la scène, fenêtre du jeu
-Déplacement de gameObject dans la hierarchie en glissant déposant vers un autre parent
-Création, modification, sauvegarde de scène
-Affichage de mesh avec texture et shader editables
-Modification des composants d'un gameObject dans l'inspector
-Création et sauvegarde de prefab
-Génération procédural de terrain
-Skybox
-Animation
-Sauvegarde et chargement de scènes
-PhysX : Rigidbody/RigidStatic et collision de base (box, sphère, capsule), callback de détection de collisions
-Création de fichier
-Sons (spatialisé ou non)
+- Dockable editor windows : Hierarchy, Inspector, Console, Project, Procedural Generation, Scene, Game
+- GameObject's parent can be moved in Hierarchy
+- Create, edit, save and load of the Scene
+- Mesh display with texture and editable shader 
+- Component modification of a gameObject in inspector
+- Create and save of prefab
+- Procedural generation
+- Skybox
+- Animation
+- PhysX : Rigidbody/RigidStatic and base collision (box, sphere, capsule), collision detection callback
+- File creation
+- Sons (Spatialized or not)
 
-##Librairie externe : 
-Assimp
-PhysX4.0
-OpenAL
-cereal
-ImGui
-ImGUiGizmos
-std_image
-glfw
-glad
-libsndfile
+## External Librairies : 
+- Assimp
+- PhysX4.0
+- OpenAL
+- cereal
+- ImGui
+- ImGUiGizmos
+- std_image
+- glfw
+- glad
+- libsndfile
 
 
-## Comment executer : 
-Executer l'éditeur : Release\ZouavZEnginE.exe
-Jeu: lancer dans l'éditeur la scene aller dans l'onglet Project ouvrir le dossier Scene et appuyer sur World.zes ou appuyer sur Load
+## How To Build : 
+Execute editor : [Here](ZouavZEngine\ZouavZEnginE.exe)
+Game : Launch editor, go to Project, open Scene folder and click on World.zes or Load
 
-## Bug connus
-Warning Physx dans la console lors de certaines opérations
-Lorsqu'on crée une scène et qu'il y avait déjà la génération procédurale, le mesh du terrain reste en background 
+## Known Bugs :
+Warning Physx in the console during certain operations
+Mesh of field stay on background if a scene is create and procedural generation was on previous scene
 
 ## License :
 
